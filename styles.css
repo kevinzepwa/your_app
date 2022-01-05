@@ -26,3 +26,6 @@ button {
 button:hover{
     cursor: pointer;
 }
+a {
+    color: rgb(255, 249, 167);    
+}
