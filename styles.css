@@ -1,0 +1,28 @@
+body {
+    background: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-color: rgb(140, 91, 91);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0vh;
+    height: 100%;
+    overflow: hidden;
+}
+.body-content {
+    color: rgb(255, 249, 167);
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10rem;
+}
+button {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    color: rgb(255, 249, 167);
+    border: crimson 2px solid;
+    border-radius: 5px;
+    background-color: rgb(37, 36, 36);
+}
+button:hover{
+    cursor: pointer;
+}
