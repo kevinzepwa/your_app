@@ -1,31 +1,46 @@
 body {
-    background: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-    background-color: rgb(140, 91, 91);
+    background-image: url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-color: rgb(204, 204, 204);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0vh;
+    background-repeat: repeat;
+    background-position: right center;
     height: 100%;
+    margin-top: 0.5rem;
     overflow: hidden;
+    padding: 4rem 2px 0px 2px;
 }
 .body-content {
     color: rgb(255, 249, 167);
     margin: auto;
     width: 50%;
+    height: 100%;
     text-align: center;
-    padding: 10rem;
 }
 button {
     width: auto;
     height: auto;
-    padding: 5px;
+    padding: 6px;
     color: rgb(255, 249, 167);
     border: crimson 2px solid;
     border-radius: 5px;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(35, 35, 35);
 }
 button:hover{
     cursor: pointer;
 }
-a {
-    color: rgb(255, 249, 167);    
+a:link {
+    color: crimson;
+}
+a:visited {
+    color: rgb(250, 237, 57);
+}
+
+/* mouse over link */
+a:hover {
+    color: crimson;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
