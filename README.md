@@ -1,2 +1,2 @@
 # your_app
-my advert
+my simple advert page
